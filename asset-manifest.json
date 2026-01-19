@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hemanth-project/static/css/main.65709937.css",
+    "main.js": "/hemanth-project/static/js/main.2a350216.js",
+    "index.html": "/hemanth-project/index.html",
+    "main.65709937.css.map": "/hemanth-project/static/css/main.65709937.css.map",
+    "main.2a350216.js.map": "/hemanth-project/static/js/main.2a350216.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65709937.css",
+    "static/js/main.2a350216.js"
+  ]
+}
