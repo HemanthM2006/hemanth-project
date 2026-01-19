@@ -1,0 +1,124 @@
+/* frontend/src/styles/soil.css */
+
+.soilPage {
+  width: 100%;
+  padding: 36px 16px 40px;
+}
+
+.soilHeader {
+  max-width: 1200px;
+  margin: 0 auto 16px;
+}
+
+.soilTitle {
+  font-size: 26px;
+  font-weight: 800;
+  color: #143a1f;
+  margin-bottom: 6px;
+}
+
+.soilSubtitle {
+  font-size: 14px;
+  color: #4b4b4b;
+  line-height: 1.5;
+}
+
+.soilLayout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.soilPanel {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 16px 16px;
+}
+
+.soilPanel__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.soilPanel__title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.soilPanel__badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e7d3a;
+  background-color: #eef8f1;
+  border: 1px solid #cfe8d7;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.soilInfoCard {
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 16px 16px;
+  margin-bottom: 14px;
+}
+
+.soilInfoCard__emoji {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.soilInfoCard__title {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 10px;
+}
+
+.soilInfoCard__list {
+  margin: 0;
+  padding-left: 18px;
+  color: #4b4b4b;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.soilMiniStats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.soilMiniStat {
+  background-color: #f4fbf5;
+  border: 1px solid #dcecdc;
+  border-radius: 14px;
+  padding: 12px 12px;
+}
+
+.soilMiniStat__value {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1e7d3a;
+  margin-bottom: 2px;
+}
+
+.soilMiniStat__label {
+  font-size: 12px;
+  color: #444444;
+}
+
+@media (max-width: 900px) {
+  .soilLayout {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,142 @@
+/* frontend/src/styles/auth.css */
+
+.authPage {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 22px 20px;
+}
+
+.authHeader {
+  margin-bottom: 16px;
+}
+
+.authTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.authSubtitle {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.4;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.authLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+
+.authInput {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.authInput:focus {
+  border-color: #1e7d3a;
+}
+
+.authButton {
+  margin-top: 6px;
+  width: 100%;
+  padding: 11px 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e7d3a;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.authButton:hover {
+  background-color: #16612c;
+}
+
+.authMessage {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: #eef8f1;
+  border: 1px solid #cfe8d7;
+  color: #1e7d3a;
+  font-size: 13px;
+}
+
+.authFooterText {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #444444;
+  text-align: center;
+}
+
+.authLink {
+  color: #1e7d3a;
+  font-weight: 700;
+}
+
+
+.authPage {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 22px 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.authFooterText {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #444444;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.authLink {
+  color: #1e7d3a;
+  font-weight: 700;
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
