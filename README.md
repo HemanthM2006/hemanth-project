@@ -209,4 +209,4 @@ This project is **production-ready in structure** and **scalable for future feat
 
 ## 📜 License
 
-This project is for educational and learning purposes Licensed under ** MIT License **.
+This project is licensed under the **MIT License** – you are free to use, modify, and share it.
