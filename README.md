@@ -117,23 +117,6 @@ smart-agricultural-platform/
 
 ---
 
-## ⚙️ Environment Setup
-
-### Backend `.env`
-
-```env
-PORT=5000
-
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=smart_agriculture_platform
-DB_PORT=3306
-
-JWT_SECRET=your_secret_key
-```
-
----
 
 ## ▶️ Running the Project
 
