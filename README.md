@@ -207,16 +207,6 @@ This project is **production-ready in structure** and **scalable for future feat
 
 ---
 
-## 🙌 Author
-
-**Hemanth M**  
-First-year Engineering student  
-Passionate about full-stack development & real-world problem solving  
-
-> 🌟 This is my biggest and most complete project so far.
-
----
-
 ## 📜 License
 
-This project is for educational and learning purposes.
+This project is for educational and learning purposes Licensed under ** MIT License **.
